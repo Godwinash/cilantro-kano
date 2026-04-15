@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background:
+    radial-gradient(circle at top, rgba(201, 162, 74, 0.08), transparent 25%),
+    #0a0a0a;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+::selection {
+  background: rgba(252, 211, 77, 0.3);
+  color: white;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
